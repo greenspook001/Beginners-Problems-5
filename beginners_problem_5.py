@@ -24,3 +24,14 @@ for _ in range(len(pesto)):
 
 print("List of other foods: ", otherfoods)
 
+#The fourth problem I did
+cereal_list = []
+
+while True:
+    cereal = input("What cereal do you like? ")
+    if cereal.lower() == "weetbix" or cereal.lower() == "sultana and bran":
+        break
+    cereal_list.append(cereal)
+
+for cereal in cereal_list:
+    print(cereal)
