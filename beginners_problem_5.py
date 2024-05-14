@@ -5,7 +5,15 @@ print(f"The avverage is = {sum(mumsList) // len(mumsList)}")
 print(f"Smallist number = {min(mumsList)}")
 
 #The second problem I did
+stringslist = ["abc", "123", "2332", "aBBA", "heelloo", "1212", "DcEfD"]
 
+count = 0
+
+for string in stringslist:
+    if string[0].lower() == string[-1].lower():
+        count += 1
+
+print("Number of strings with the same character at start and end:", count)
 
 #The third problem I did
 pesto = []
